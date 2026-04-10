@@ -3,41 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Promyie's App</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>South Africa</h1>
-        <p>
-          Monday 14:49, slightly cloudy
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>🌤️ 18°C</div>
-    </main>
+    <div class="weather-details">
+      <h1>Weather App</h1>
+      <header>
+        <form class="searching">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="searching-input"
+          />
+          <input type="submit" value="Search" class="searching-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-information">
+          <div>
+            <h1 class="weather-city">South Africa</h1>
+            <p class="weather-about">
+              Monday <strong>14:49</strong>, slightly cloudy
+              <br />
+              Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+            </p>
+          </div>
+          <div class="weather-info">
+            <div class="icon">🌤️</div>
+            <div class="value">18</div>
+            <div class="unit">°C</div>
+          </div>
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/promisehanyani2-dotcom" target="_blank">
-        Promise Hanyani</a
-      >, is
-      <a
-        href="https://github.com/promisehanyani2-dotcom/Promyie-s-weather-project"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://promyie.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/promisehanyani2-dotcom" target="_blank">
+          Promise Hanyani</a
+        >, is
+        <a
+          href="https://github.com/promisehanyani2-dotcom/Promyie-s-weather-project"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://promyie.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
