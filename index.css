@@ -27,7 +27,7 @@ header {
   border-radius: 6px;
   width: 80%;
   font-size: 16px;
-  padding: 15px 20px;
+  padding: 15px 19px;
 }
 
 .searching-button {
@@ -35,7 +35,7 @@ header {
   padding: 15px 30px;
   border: none;
   font-size: 16px;
-  margin-left: 5px;
+  margin-left: 3px;
   border-radius: 6px;
   color: white;
 }
@@ -71,18 +71,18 @@ main {
 }
 
 .icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .value {
   font-size: 88px;
-  margin-left: 10px;
   font-weight: bold;
+  line-height: 88px;
 }
 
 .unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 
