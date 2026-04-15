@@ -85,6 +85,32 @@ main {
   margin-top: 6px;
   font-size: 28px;
 }
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.forecast-icon {
+  text-align: center;
+  font-size: 40px;
+}
+.forecast-temperature {
+  margin-top: 10px;
+  text-align: center;
+  color: #f65282;
+  display: flex;
+  justify-content: center;
+}
+.temperatures {
+  padding: 0 10px;
+}
 
 footer {
   border-top: 1px solid #f9f7fe;
