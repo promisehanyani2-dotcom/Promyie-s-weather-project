@@ -99,7 +99,7 @@ main {
 }
 .forecast-icon {
   text-align: center;
-  font-size: 40px;
+  width: 28px;
 }
 .forecast-temperature {
   margin-top: 10px;
