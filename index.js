@@ -50,5 +50,27 @@ function changePlace(event) {
   searchPlace(searchInput.value);
 }
 
+function showForecast() {
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `<div class="forecast-day">
+            <div class="forecast-date">${day}</div>
+            <div class="forecast-icon">🌦️</div>
+            <div class="forecast-temperature">
+              <div class="temperatures"><strong>16℃</strong></div>
+              <div class="temperatures">12℃</div>
+          </div>
+          </div>`;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
 let searchFormElement = document.querySelector("#searching-form");
 searchFormElement.addEventListener("submit", changePlace);
+
+showForecast();
